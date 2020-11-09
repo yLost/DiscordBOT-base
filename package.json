@@ -1,0 +1,23 @@
+{
+    "name": "discordbot-base",
+    "version": "1.0.0",
+    "description": "That's a base to make your own discord bot",
+    "main": "index.js",
+    "dependencies": {
+        "discord.js": "^12.4.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "botbase",
+        "discordbot"
+    ],
+    "github": "https://github.com/yLost/DiscordBOT-base",
+    "author": "Fernando - yLost",
+    "license": "ISC"
+}
