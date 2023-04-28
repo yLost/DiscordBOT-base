@@ -132,7 +132,7 @@ function registerCommands() {
  */
 function handleCommand(client, guild, message) {
     // A variável do caseSensitive se encaixa aqui, para a verificação de prefixo do comando
-    const isCommand = caseSensitive ? message.content.startsWith(BOT_PREFIX) : message.content.toLowerCase().statsWith(BOT_PREFIX);
+    const isCommand = caseSensitive ? message.content.startsWith(BOT_PREFIX) : message.content.toLowerCase().startsWith(BOT_PREFIX);
 
     if (isCommand) {
 
